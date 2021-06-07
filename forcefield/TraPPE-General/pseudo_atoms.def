@@ -1,0 +1,37 @@
+#number	of	pseudo	atoms
+#	Recalculate	Value
+#type	print	as	chem	oxidation	mass	charge	polarization	B-factor	radii	connectivity	anisotropic	anisotropic-type	tinker-type
+He	yes	He	He	0	4.002602	0.0	0.0	1.0	1.0	0	0	relative	0
+Ar	yes	Ar	Ar	0	39.948	0.0	0.0	1.0	0.7	0	0	relative	0
+Kr	yes	Kr	Kr	0	83.798	0.0	0.0	1.0	1.00	0	0	relative	0
+Xe	yes	Xe	Xe	0	131.293	0.0	0.0	1.0	1.00	0	0	relative	0
+H_H2	yes	H	H	0	1.00794	0.468	0.0	1.0	0.7	0	0	relative	0
+M_H2	no	-	-	0	0.0	-0.936	0.0	1.0	0.7	0	0	relative	0
+N_N2	yes	N	N	0	14.00674	-0.482	0.0	1.0	0.7	0	0	relative	0
+M_N2	no	-	-	0	0.0	0.964	0.0	1.0	0.7	0	0	relative	0
+O_O2	yes	O	O	0	15.9994	-0.113	0.0	1.0	0.7	0	0	relative	0
+M_O2	no	-	-	0	0.0	0.226	0.0	1.0	0.7	0	0	relative	0
+C_CO2	yes	C	C	0	12.0	0.70	0.0	1.0	0.720	0	0	relative	0
+O_CO2	yes	O	O	0	15.9994	-0.35	0.0	1.0	0.68	0	0	relative	0
+N_NH3	yes	N	N	0	14.00674	0.0	0.0	1.0	1.0	0	0	relative	0
+H_NH3	yes	H	H	0	1.00794	0.410	0.0	1.0	1.0	0	0	relative	0
+M_NH3	no	-	-	0	1.00794	-1.230	0.0	1.0	1.0	0	0	relative	0
+H_H2S	yes	H	H	0	1.00794	0.21	0.0	1.0	1.0	1	0	relative	0
+S_H2S	yes	S	S	0	32.0650	0.0	0.0	1.0	1.0	2	0	relative	0
+M_H2S	no	M	-	0	0.0	-0.42	0.0	1.0	1.0	0	0	relative	0
+C_sp2	yes	C	C	0	12.0	0.0	0.0	1.0	1.0	0	0	relative	0
+C_sp3	yes	C	C	0	12.0	0.0	0.0	1.0	1.0	0	0	relative	0
+C_sp3_q	yes	C	C	0	12.0	0.265	0.0	1.0	1.0	0	0	relative	0
+CH_sp2	yes	C	C	0	13.01864	0.0	0.0	1.0	1.0	0	0	relative	0
+CH_sp3	yes	C	C	0	13.01864	0.0	0.0	1.0	1.0	0	0	relative	0
+CH_sp3_q	yes	C	C	0	13.01864	0.265	0.0	1.0	1.0	0	0	relative	0
+CH2_sp2	yes	C	C	0	14.02658	0.0	0.0	1.0	1.0	0	0	relative	0
+CH2_sp3	yes	C	C	0	14.02658	0.0	0.0	1.0	1.0	0	0	relative	0
+CH2_sp3_q	yes	C	C	0	14.02658	0.265	0.0	1.0	1.0	0	0	relative	0
+CH3_sp3	yes	C	C	0	15.03452	0.0	0.0	1.0	1.0	0	0	relative	0
+CH3_sp3_q	yes	C	C	0	15.03452	0.265	0.0	1.0	1.0	0	0	relative	0
+CH4_sp3	yes	C	C	0	16.04246	0.0	0.0	1.0	1.0	0	0	relative	0
+O_alc	yes	O	O	0	15.9994	-0.7	0.0	1.0	1.0	0	0	relative	0
+H_alc	yes	H	H	|0	|	1.00794	0.435	0.0	1.0	1.0	0	0	relative	0
+C_ketone	yes	C	C	0	12.0	0.424	0.0	1.0	1.0	0	0	relative	0
+O_ketone	yes	O	O	0	15.9994	-0.424	0.0	1.0	1.0	0	0	relative	0
