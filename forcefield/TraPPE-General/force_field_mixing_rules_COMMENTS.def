@@ -3,7 +3,7 @@ shifted
 # general rule tailcorrections
 no
 # number of defined interactions
-85
+81
 # type interaction, parameters.    IMPORTANT: define shortest matches first, so that more specific ones overwrites these
 
 # UUF - MOF Parameters
