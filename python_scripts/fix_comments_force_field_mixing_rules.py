@@ -4,6 +4,7 @@ import sys
 file = '/Users/brian_day/Github-Repos/RASPA_Parameters/forcefield/TraPPE-General/force_field_mixing_rules_COMMENTS.def'
 file_out = '/Users/brian_day/Github-Repos/RASPA_Parameters/forcefield/TraPPE-General/force_field_mixing_rules.def'
 
+
 # Load file as text and strip whitespace
 file_as_text = []
 with open(file, newline='') as csvfile:
@@ -26,7 +27,7 @@ for i in range(len(file_as_text)):
     # Removes unnecessary comments
     elif row[0] == '#' and i > 6 and i < len(file_as_text)-2:
         continue
-    # Removes bracketed charges which are specified in pseudo-atoms file
+    # Removes bracketed charges which should be specified in pseudo-atoms file, not forcefield file
     elif len(row) > 2 and i > 6 and i < len(file_as_text)-2:
         if row[1] == 'lennard-jones':
             file_as_text_new.extend([row[0:4]])
@@ -40,3 +41,6 @@ with open(file_out, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter='\t', quotechar='|', quoting=csv.QUOTE_MINIMAL)
     writer.writerows(file_as_text_new)
 csvfile.close()
+
+# Update
+len(file_as_text_new) - 9
