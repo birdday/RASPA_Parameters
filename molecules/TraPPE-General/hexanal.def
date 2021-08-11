@@ -1,0 +1,39 @@
+# critical constants: Temperature [T], Pressure [Pa], and Acentric factor [-]
+592.8
+3460000
+0.387
+# atomic positions
+0 CH_sp2_ald
+1 CH2_sp3_ald
+2 CH2_sp3
+3 O_ald
+4 CH2_sp3
+5 CH2_sp3
+6 CH3_sp3
+# Chiral centers Bond BondDipoles Bend UrayBradley InvBend Torsion Imp. Torsion Bond/Bond Stretch/Bend Bend/Bend Stretch/Torsion Bend/Torsion IntraVDW IntraCoulomb
+0 6 0 5 0 0 4 0 0 0 0 0 0 6 0
+# Bond stretch: atom n1-n2, type, parameters
+0 1 FIXED_BOND 1.52
+1 2 FIXED_BOND 1.54
+0 3 FIXED_BOND 1.217
+2 4 FIXED_BOND 1.54
+4 5 FIXED_BOND 1.54
+5 6 FIXED_BOND 1.54
+# Bond bending: atom n1-n2-n3, type, parameters
+0 1 2 HARMONIC_BEND 62500 114
+1 2 4 HARMONIC_BEND 62500 114
+1 0 3 HARMONIC_BEND 62500 121.4
+2 4 5 HARMONIC_BEND 62500 114
+4 5 6 HARMONIC_BEND 62500 114
+# Torsion n1-n2-n3-n4 type
+1 2 4 5 TRAPPE_DIHEDRAL 0.00 355.03 -68.19 791.32
+2 4 5 6 TRAPPE_DIHEDRAL 0.00 355.03 -68.19 791.32
+0 1 2 4 TRAPPE_DIHEDRAL 11.81 467.80 -274.10 846.80
+2 1 0 3 TRAPPE_DIHEDRAL 1182.00 -225.60 302.80 -339.30
+# Intra VDW: atom n1-n2
+0 5
+0 6
+1 6
+3 4
+3 5
+3 6

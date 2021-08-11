@@ -87,6 +87,11 @@ M_NH3          none                             [-1.23]
 H_H2S          lennard-jones    50.0      2.5   [0.21]
 S_H2S          lennard-jones    122.0     3.60  [0.0]
 M_H2S          none                             [-0.42]
+# --- Isoprene (Flexible)
+C_sp2_isop     lennard-jones       22.0     3.85
+CH_sp2_isop    lennard-jones       52.0     3.71
+CH2_sp2_isop   lennard-jones       85.0     3.675
+CH3_sp3_isop   lennard-jones       98.0     3.75
 
 
 # TraPPE - United Atom Organic Molecules
@@ -106,7 +111,13 @@ CH4_sp3        lennard-jones      148.0     3.73
 O_alc          lennard-jones        93.0    3.02  [-0.700]
 H_alc          lennard-jones         0.0    0.0   [0.435]
 
-# --- Ketones
+# TraPPE - Aldehydes
+O_ald          lennard-jones       79.0     3.05  [-0.482]
+CH_sp2_ald     lennard-jones       54.0     3.52  [0.525]
+CH2_sp3_ald    lennard-jones       46.0     3.95  [-0.043]
+
+
+# TraPPE - Ketones
 C_ketone       lennard-jones    40.0      3.82    [0.424]
 O_ketone       lennard-jones    79.0      3.05    [-0.424]
 

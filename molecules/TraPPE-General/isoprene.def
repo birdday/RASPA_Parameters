@@ -1,0 +1,22 @@
+# critical constants: Temperature [T], Pressure [Pa], and Acentric factor [-]
+484.3
+3789555
+0.1586
+# atomic positions
+0 CH2_sp2_isop
+1 C_sp2_isop
+2 CH_sp2_isop
+3 CH2_sp2_isop
+4 CH3_sp3_isop
+# Chiral centers Bond BondDipoles Bend UrayBradley InvBend Torsion Imp. Torsion Bond/Bond Stretch/Bend Bend/Bend Stretch/Torsion Bend/Torsion IntraVDW IntraCoulomb
+0 4 0 4 0 0 0 0 0 0 0 0 0 0 0
+# Bond stretch: atom n1-n2, type, parameters
+0 1 FIXED_BOND 1.33
+1 2 FIXED_BOND 1.54
+2 3 FIXED_BOND 1.33
+1 4 FIXED_BOND 1.54
+# Bond bending: atom n1-n2-n3, type, parameters
+0 1 2 HARMONIC_BEND 70420 119.7
+0 1 4 HARMONIC_BEND 70420 119.7
+1 2 3 HARMONIC_BEND 70420 119.7
+2 1 4 HARMONIC_BEND 70420 119.7
