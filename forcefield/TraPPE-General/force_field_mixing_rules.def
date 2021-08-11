@@ -3,7 +3,7 @@ shifted
 #	general	rule	tailcorrections
 no
 #	number	of	defined	interactions
-81
+88
 #	type	interaction,	parameters.	IMPORTANT:	define	shortest	matches	first,	so	that	more	specific	ones	overwrites	these
 cgO	lennard-jones	30.1932	3.5
 cgC	lennard-jones	52.8381	3.851
@@ -70,6 +70,10 @@ M_NH3	none
 H_H2S	lennard-jones	50.0	2.5
 S_H2S	lennard-jones	122.0	3.60
 M_H2S	none
+C_sp2_isop	lennard-jones	22.0	3.85
+CH_sp2_isop	lennard-jones	52.0	3.71
+CH2_sp2_isop	lennard-jones	85.0	3.675
+CH3_sp3_isop	lennard-jones	98.0	3.75
 C_sp2	lennard-jones	20.0	3.85
 C_sp3	lennard-jones	0.5	6.4
 C_sp3_q	lennard-jones	0.5	5.80
@@ -84,6 +88,9 @@ CH3_sp3_q	lennard-jones	98.0	3.75
 CH4_sp3	lennard-jones	148.0	3.73
 O_alc	lennard-jones	93.0	3.02
 H_alc	lennard-jones	0.0	0.0
+O_ald	lennard-jones	79.0	3.05
+CH_sp2_ald	lennard-jones	54.0	3.52
+CH2_sp3_ald	lennard-jones	46.0	3.95
 C_ketone	lennard-jones	40.0	3.82
 O_ketone	lennard-jones	79.0	3.05
 #	general	mixing	rule	for	Lennard-Jones
