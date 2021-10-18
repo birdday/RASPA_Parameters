@@ -1,8 +1,8 @@
 import csv
 import sys
 
-file = '/Users/brian_day/Github-Repos/RASPA_Parameters/forcefield/OPLS-Xylene/pseudo_atoms_COMMENTS.def'
-file_out = '/Users/brian_day/Github-Repos/RASPA_Parameters/forcefield/OPLS-Xylene/pseudo_atoms.def'
+file = '/Users/brian_day/Github-Repos/RASPA_Parameters/forcefield/TraPPE-General/pseudo_atoms_COMMENTS.def'
+file_out = '/Users/brian_day/Github-Repos/RASPA_Parameters/forcefield/TraPPE-General/pseudo_atoms.def'
 
 
 # Load file as text and strip whitespace
@@ -35,3 +35,5 @@ with open(file_out, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter='\t', quotechar='|', quoting=csv.QUOTE_MINIMAL)
     writer.writerows(file_as_text_new)
 csvfile.close()
+
+len(file_as_text_new)-3
